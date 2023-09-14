@@ -37,8 +37,8 @@ export default function Login() {
       <div>
         <Navbar />
       </div>
-      <div className='container'>
-        <form className='w-50 m-auto mt-5 border bg-dark border-success rounded ' onSubmit={handleSubmit}>
+      <div className='form'  >
+        <form className='border bg-dark border-success rounded ' style={{width: "20rem", margin: "2rem"}} onSubmit={handleSubmit}>
         <div className="m-4">
           <div className="form-group">
             <label htmlFor="Email">Email address</label>
