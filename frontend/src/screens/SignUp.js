@@ -27,7 +27,7 @@ export default function SignUp() {
     // console.log(latlong)
     let [lat, long] = latlong
     console.log(lat, long)
-    const response = await fetch("http://localhost:5000/api/getlocation", {
+    const response = await fetch(global.url+"api/getlocation", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -43,7 +43,7 @@ export default function SignUp() {
 
   const handleSubmit = async (e)=>{
     e.preventDefault();
-    const respone = await fetch("http://localhost:5000/api/createuser",{
+    const respone = await fetch(global.url+"api/createuser",{
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

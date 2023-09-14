@@ -6,7 +6,7 @@ export default function MyOrder() {
     const [orderData, setorderData] = useState({})
 
     const fetchMyOrder = async () => {
-        await fetch("http://localhost:5000/api/myorderData", {
+        await fetch(global.url+"api/myorderData", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
