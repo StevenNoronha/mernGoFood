@@ -40,14 +40,14 @@ export default function Home() {
                 {/* <button button className="btn btn-success text-white bg-teal" type="submit">Search</button> */}
               </div>
             </div>
-            <div className="carousel-item active">
-              <img src="https://source.unsplash.com/random/900x700/?burger" className="d-block w-100" alt="..." />
+            <div className="carousel-item active" >
+              <img src="https://img.freepik.com/free-photo/exploding-burger-with-vegetables-melted-cheese-black-background-generative-ai_157027-1734.jpg" className="d-block w-100" style={{"position": "contain"}} alt="..." />
             </div>
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/900x700/?pizza" className="d-block w-100" alt="..." />
+              <img src="https://c4.wallpaperflare.com/wallpaper/1005/1000/931/delicious-pizza-pepperoni-pizza-wallpaper-preview.jpg" className="d-block w-100" style={{"position": "contain"}}  alt="..." />
             </div>
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/900x700/?momos" className="d-block w-100" alt="..." />
+              <img src="https://t4.ftcdn.net/jpg/05/80/83/11/360_F_580831163_gHJgKLXz4TxnZRSnVpdi779YnI6Vk0FL.jpg" className="d-block w-100" alt="..." />
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
