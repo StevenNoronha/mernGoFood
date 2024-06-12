@@ -5,7 +5,7 @@ const port = 5000
 const mongoDB = require('./db');
 require('dotenv').config()
 
-app.use(cors({ origin: 'https://gofood-order-mern.netlify.app' }));
+app.use(cors({ origin: 'http://localhost:3000' }));
 
 mongoDB();
 
